@@ -1,14 +1,13 @@
-const array=["cunt","shit","ass","bitch","tits"];
+const array=["./1.png","./2.png","./3.png","./4.png","./5.png"];
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
 function buttonClicked(){
-  const elementNode = document.createElement('p');
+  const elementNode = document.createElement('img');
   const index=getRandomInt(5);
-  const textNode= document.createTextNode(array[index]);
-  elementNode.appendChild(textNode);
+  newElement.setAttribut('src', array[index]);
   document.body.appendChild(elementNode);
   
 }
