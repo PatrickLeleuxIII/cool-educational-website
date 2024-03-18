@@ -1,4 +1,4 @@
-const array=["./1.png","./2.png","./3.png","./4.png","./5.png"];
+const array=["./1.jpg","./2.png","./3.png","./4.png","./5.png"];
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
