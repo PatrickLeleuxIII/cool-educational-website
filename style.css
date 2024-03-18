@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui;
+  color: white;
+  text-align: center;
+  text-shadow: 4px 4px 5px black;
+  background-image:url(https://as1.ftcdn.net/v2/jpg/04/33/88/26/1000_F_433882642_2RL9uO48xKC47VX2f8vXprc9eFaIEL96.jpg);
+  margin=0;
+}
+
+h1{
+  font-size:6vw;
+}
+
+.button{
+  cursor:pointer;
+  border:none;
+  color:white;
+  text-align: center;
+  text-shadow: 4px 4px 5px black;
+  font-size:1.5rem;
+  background:url(https://i.imgflip.com/5njkdy.png?a474792);
+  background-size:cover;
+  width:150px;
+  height:100px;
+  box-shadow:
+    inset 4px 4px 6px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 6px rgba(0, 0, 0, 0.6);
+}
+.button:hover{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://i.imgflip.com/5njkdy.png?a474792);
+  background-size:cover;
+}
+.button:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
