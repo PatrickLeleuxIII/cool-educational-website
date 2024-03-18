@@ -7,7 +7,7 @@ function getRandomInt(max) {
 function buttonClicked(){
   const elementNode = document.createElement('img');
   const index=getRandomInt(5);
-  newElement.setAttribut('src', array[index]);
+  elementNode.setAttribute('src', array[index]);
   document.body.appendChild(elementNode);
   
 }
